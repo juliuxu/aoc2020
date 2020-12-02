@@ -1,14 +1,18 @@
 import { test, readInput } from "../utils/index"
 
-const prepareInput = (rawInput: string) => rawInput
+type Line = {};
+type Input = Line[];
 
+const prepareInput = (rawInput: string): Input => {
+  return rawInput.split('\n')
+}
 const input = prepareInput(readInput())
 
-const goA = (input) => {
+const goA = (input: Input) => {
   return
 }
 
-const goB = (input) => {
+const goB = (input: Input) => {
   return
 }
 
