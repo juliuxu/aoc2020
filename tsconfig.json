@@ -1,10 +1,20 @@
 {
   "compilerOptions": {
-    "target": "es2019",
+    "target": "es2020",
     "allowJs": true,
     "strict": false,
-    "lib": ["dom", "es2019"]
+    "lib": [
+      "dom",
+      "es2020"
+    ]
   },
-  "include": ["src", "examples/passThrough.ts"],
-  "exclude": ["node_modules", "src/**/*.test.ts", "src/**/*.temp.ts"]
+  "include": [
+    "src",
+    "examples/passThrough.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/**/*.test.ts",
+    "src/**/*.temp.ts"
+  ]
 }
