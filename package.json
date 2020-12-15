@@ -17,8 +17,10 @@
   "dependencies": {
     "@arrows/composition": "^1.2.1",
     "@types/geometric": "2.2.0",
+    "@types/mathjs": "6.0.8",
     "geometric": "2.2.5",
     "get-caller-file": "^2.0.5",
-    "kleur": "^3.0.3"
+    "kleur": "^3.0.3",
+    "mathjs": "8.1.0"
   }
 }
